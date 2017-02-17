@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>uppgift2och3</title>
+</head>
+
+<body>
+<p id="skrivut">
+
+</p>
+<script language="javascript">
+var dittnamn=prompt("Vad heter du?","Skriv ditt namn här");
+document.getElementById("skrivut").innerHTML=dittnamn;
+
+var n = "";
+do
+{
+	n = prompt("var god skriv ett tal","Skriv ditt tal här");
+	
+}
+while(isNaN(parseInt(n)) || n.match(/[^\d]+/g));
+document.getElementById("skrivut").innerHTML = n;
+</script>
+
+</body>
+</html>
