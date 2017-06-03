@@ -34,6 +34,15 @@ height:100%;
 	padding:1%;
 }
 
+#ClassicLongbowText1
+{
+	margin-top:5%;
+	overflow:hidden;
+	padding-left:5%;
+	padding-right:5%;
+	font-size:68px;
+}
+
 section
 {
 	
